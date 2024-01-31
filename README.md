@@ -46,7 +46,7 @@ This microservice accepts PNG files, processes the images to extract rectangular
     curl -X POST -F "image=@/path/to/your/image.png" http://localhost:5000/extract-rect-coords
     ```
 
-## Docker Containerization (Optional Bonus)
+## Docker Containerization (Not working properly, need to find right Python and dependecies combination)
 
 1. Build the Docker image:
 
